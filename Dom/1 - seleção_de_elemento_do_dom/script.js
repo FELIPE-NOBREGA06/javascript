@@ -5,3 +5,4 @@ document.getElementById("btnTitulo").addEventListener("click", function () {
 
   document.getElementById("inputTitulo").value = titulo.textContent;
 });
+var a;
