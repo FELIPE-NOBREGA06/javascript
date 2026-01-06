@@ -1,0 +1,17 @@
+p {
+  color: blue;
+}
+
+.highlght {
+  color: red;
+
+  background-color: yellow;
+}
+
+#main-title {
+  color: green;
+}
+
+small {
+  color: grey;
+}
