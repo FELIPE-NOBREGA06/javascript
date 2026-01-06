@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Exemplo e aplicações práticas - tabulação dinânicas de conteudo
+    </title>
+
+    <style>
+      .tablink {
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        cursor: pointer;
+        float: left;
+        margin-right: 4px;
+      }
+      .tablink.active,
+      .tablink:hover {
+        background-color: #ddd;
+      }
+
+      .tabcontent {
+        clear: both;
+        padding: 20px;
+        border: 1px solid #cccc;
+        border-top: none;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="tabs">
+      <button class="tablink" onclick="openTan(event,'Tab1')">Tab 1</button>
+
+      <button class="tablink" onclick="openTan(event,'Tab2')">Tab 2</button>
+
+      <div id="tab1" class="tabcontent">
+        <h3>Tab 1</h3>
+
+        <p>
+          Conteudo da tab 1. aqui podemos ser inserido texto, imagem ou qualquer
+          outro conteúdo. Html
+        </p>
+      </div>
+
+      <div id="Tab2" class="tabcontent">
+        <h3>Tab 2</h3>
+
+        <p>
+          Conteudo da tab 2. aqui podemos ser inserido texto, imagem ou qualquer
+          outro conteúdo. Html
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
