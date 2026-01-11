@@ -1,0 +1,21 @@
+/** @format */
+
+div {
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.hex {
+  background-color: #3498db;
+}
+
+.rgb {
+  background-color: rgb(255, 99, 71);
+}
+
+.hsl {
+  background-color: hsl(120, 75%, 50%);
+}
