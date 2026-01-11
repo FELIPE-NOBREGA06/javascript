@@ -1,0 +1,44 @@
+.relative {
+  position: relative;
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+}
+
+.absolute {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+.fixed {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: lightgreen;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.stick {
+  position: static;
+  top: 0;
+  background-color: lightyellow;
+  padding: 10px;
+  text-align: center;
+  z-index: 500;
+}
+
+.long-contet {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+}

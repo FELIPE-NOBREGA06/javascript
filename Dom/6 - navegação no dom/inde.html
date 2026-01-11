@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navegação no Dom</title>
+  </head>
+  <body>
+    <div id="divPrincipal">
+      <p>Parágrafo Princial</p>
+
+      <ul>
+        <li id="item1">Item 1</li>
+        <li id="item2">
+          Item 2
+
+          <ul>
+            <li id="subitem1">SubItem 1</li>
+            <li id="subitem2">SubItem 2</li>
+          </ul>
+        </li>
+        <li id="item3">Item 3</li>
+      </ul>
+    </div>
+
+    <button onclick="acessarParent()">Acessar Elemento Pai</button>
+
+    <button onclick="ListarChildrem">Listar Filhos</button>
+
+    <button onclick="irProximo">Ir para o próximo Irmão</button>
+
+    <button onclick="irAtenterior">Ir para o irmão anterior</button>
+
+    <p id="resultado">Resultado aparecerão aqui.</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>

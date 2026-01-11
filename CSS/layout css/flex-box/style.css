@@ -1,0 +1,42 @@
+/** @format */
+
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: ariel, sans-serif;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+}
+
+aside {
+  background-color: #f4f4f4;
+  flex: 1;
+  padding: 20px;
+}
+
+main {
+  background-color: #fff;
+  flex: 3;
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
