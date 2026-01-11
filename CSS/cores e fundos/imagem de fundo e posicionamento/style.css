@@ -1,0 +1,15 @@
+/** @format */
+
+.background-image {
+  height: 300px;
+  width: 100%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnHbrEhaFaZ51Gsuos8rjQRM2RCmqKZh_WDCWJajXSbQ&s");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
