@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  border: 1px solid #000;
+  overflow: auto;
+}
+
+.float-left {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px;
+}
+
+.float-right {
+  float: right;
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  margin: 10px;
+}
+
+.clear-both {
+  clear: both;
+  background-color: lightblue;
+  padding: 10px;
+}
