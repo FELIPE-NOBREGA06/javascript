@@ -1,0 +1,37 @@
+/** @format */
+
+body {
+  font-family: "Segoe UI", Ariel, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1,
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.rigth-align {
+  text-align: right;
+}
+
+.spacing {
+  letter-spacing: 1.5;
+  word-spacing: 4px;
+  line-height: 2;
+}
+
+.no-wrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
